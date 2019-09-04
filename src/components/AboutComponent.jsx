@@ -23,7 +23,7 @@ const AboutComponent = (props) => {
 
     return (
         <div>
-            <h2>About me</h2>
+            <h2>About Component</h2>
             <div>
                 <button onClick={getNumber}>Get number</button>
                 &nbsp;
@@ -31,6 +31,7 @@ const AboutComponent = (props) => {
             </div>
             <button onClick={addNumber.bind(null, 5)}>Add 5</button>
             <button onClick={changeName.bind(null, 'Celia')}>Change name to Celia</button>
+            <hr />
         </div>
     );
 };

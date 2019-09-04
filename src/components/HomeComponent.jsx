@@ -23,7 +23,7 @@ const HomeComponent = (props) => {
 
     return (
         <div>
-            <h2>Welcome to code splitting</h2>
+            <h2>Home Component</h2>
             <div>
                 <button onClick={getNumber}>Get number</button>
                 &nbsp;
@@ -31,7 +31,7 @@ const HomeComponent = (props) => {
             </div>
             <button onClick={addNumber.bind(null, 13)}>Add 13</button>
             &nbsp;
-            <button onClick={changeName.bind(null, 'Veronica')}>Change name to Veronica</button>
+            <button onClick={changeName.bind(null, 'James')}>Change name to James</button>
             &nbsp;
             <button onClick={changeName.bind(null, 'Liem')}>Change name to Liem</button>
             <hr />

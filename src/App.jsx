@@ -9,6 +9,10 @@ const HomeComponent = LoadComponent('HomeComponent');
 const AboutComponent = LoadComponent('AboutComponent');
 const SettingsComponent = LoadComponent('SettingsComponent');
 
+// import HomeComponent from './components/HomeComponent.jsx';
+// import AboutComponent from './components/AboutComponent.jsx';
+// import SettingsComponent from './components/SettingsComponent.jsx';
+
 export const history = createBrowserHistory();
 const App = (props) => {
     return (

@@ -1,11 +1,11 @@
 // Vars
 let number = 0;
 let user = {
-    name: 'seb'
+    name: 'jean-sebastien'
 };
 
 // Helpers
-const incrementNumber = (num, source) => {
+const incrementNumber = (num) => {
     number = number + num;
 };
 const changeName = (name) => {

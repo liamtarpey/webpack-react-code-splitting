@@ -23,7 +23,7 @@ const SettingsComponent = (props) => {
 
     return (
         <div>
-            <h2>Change your personal settings</h2>
+            <h2>Settings Component</h2>
             <div>
                 <button onClick={getNumber}>Get number</button>
                 &nbsp;
